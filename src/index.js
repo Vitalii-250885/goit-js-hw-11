@@ -1,8 +1,8 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { fetchArticles } from './js/pixabay.js';
-import { createCards } from './js/photo-card.js';
+import { fetchArticles } from './js/pixabay';
+import { createCards } from './js/photo-card';
 
 const searchForm = document.querySelector('.search-form');
 const searchText = document.querySelector('.input');
